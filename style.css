@@ -1,0 +1,350 @@
+body {
+    background-color: #ECECEC;
+    padding: 0%;
+    margin: auto;
+}
+
+/*styling for the left nav bar */
+
+#content_div {
+    margin-top: 0%;
+    position: fixed;
+    height: 738px;
+    /* border: 2px black solid; */
+    width: 16%;
+    background-color: #e5e5df;
+}
+
+.name{
+    position: fixed;
+    /* border: 2px black solid; */
+    height: 6%;
+    width: 14%;
+    margin-left: 1%;
+    margin-top: 9%;
+    font-size: 40px;
+}
+
+.blue{
+    color: #1d1de6;
+}
+.orange{
+    color: #FF7F56;
+}
+
+#library{
+    position: fixed;
+    margin-top: 18%;
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    overflow: hidden;
+}
+
+#library::before{
+    content: '\2192';
+    position: absolute;
+    margin-left: -10%;
+    opacity: 0;
+}
+
+#library:hover::before{
+    color: chocolate;
+    opacity: 1;
+}
+
+#library:hover{
+    margin-left: 0%;
+    font-weight: 550;
+    width: 16%;
+    height: 3%;
+    padding-top: 3px;
+    color: #1d1de6;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+#recomendation{
+    position: fixed;
+    margin-top: 19%;
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+
+#recomendation::before{
+    content: '\2192';
+    position: absolute;
+    margin-left: -10%;
+    opacity: 0;
+}
+
+#recomendation:hover::before{
+    color: chocolate;
+    opacity: 1;
+}
+
+#recomendation:hover{
+    margin-left: 0%;
+    font-weight: 550;
+    width: 16%;
+    height: 3%;
+    padding-top: 3px;
+    color: #1d1de6;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    opacity: 1; 
+}
+
+#bookmarks{
+    position: fixed;
+    margin-top: 20%;
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+
+#bookmarks::before{
+    content: '\2192';
+    position: absolute;
+    margin-left: -10%;
+    opacity: 0;
+}
+
+#bookmarks:hover::before{
+    color: chocolate;
+    opacity: 1;
+}
+
+#bookmarks:hover{
+    margin-left: 0%;
+    font-weight: 550;
+    width: 16%;
+    height: 3%;
+    padding-top: 3px;
+    color: #1d1de6;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    opacity: 1; 
+}
+
+#issue{
+    position: fixed;
+    margin-top: 21%;
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+
+#issue::before{
+    content: '\2192';
+    position: absolute;
+    margin-left: -10%;
+    opacity: 0;
+}
+
+#issue:hover::before{
+    color: chocolate;
+    opacity: 1;
+}
+
+#issue:hover{
+    margin-left: 0%;
+    font-weight: 550;
+    width: 16%;
+    height: 3%;
+    padding-top: 3px;
+    color: #1d1de6;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    opacity: 1; 
+}
+
+#renewal{
+    position: fixed;
+    margin-top: 22%;
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+
+#renewal::before{
+    content: '\2192';
+    position: absolute;
+    margin-left: -10%;
+    opacity: 0;
+}
+
+#renewal:hover::before{
+    color: chocolate;
+    opacity: 1;
+}
+
+#renewal:hover{
+    margin-left: 0%;
+    font-weight: 550;
+    width: 16%;
+    height: 3%;
+    padding-top: 3px;
+    color: #1d1de6;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    opacity: 1; 
+}
+
+#fine{
+    position: fixed;
+    margin-top: 23%;
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+
+#fine::before{
+    content: '\2192';
+    position: absolute;
+    margin-left: -10%;
+    opacity: 0;
+}
+
+#fine:hover::before{
+    color: chocolate;
+    opacity: 1;
+}
+
+#fine:hover{
+    margin-left: 0%;
+    font-weight: 550;
+    width: 16%;
+    height: 3%;
+    padding-top: 3px;
+    color: #1d1de6;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    opacity: 1; 
+}
+
+#privacy{
+    position: fixed;
+    margin-top: 30%;
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+
+#privacy::before{
+    content: '\2192';
+    position: absolute;
+    margin-left: -10%;
+    opacity: 0;
+}
+
+#privacy:hover::before{
+    color: chocolate;
+    opacity: 1;
+}
+
+#privacy:hover{
+    margin-left: 0%;
+    font-weight: 550;
+    width: 16%;
+    height: 3%;
+    padding-top: 3px;
+    color: #1d1de6;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    opacity: 1; 
+}
+
+#help{
+    position: fixed;
+    margin-top: 31%;
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+
+#help::before{
+    content: '\2192';
+    position: absolute;
+    margin-left: -10%;
+    opacity: 0;
+}
+
+#help:hover::before{
+    color: chocolate;
+    opacity: 1;
+}
+
+#help:hover{
+    margin-left: 0%;
+    font-weight: 550;
+    width: 16%;
+    height: 3%;
+    padding-top: 3px;
+    color: #1d1de6;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    opacity: 1; 
+}
+
+#account{
+    position: fixed;
+    margin-top: 32%;
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+
+#account::before{
+    content: '\2192';
+    position: absolute;
+    margin-left: -10%;
+    opacity: 0;
+}
+
+#account:hover::before{
+    color: chocolate;
+    opacity: 1;
+}
+
+#account:hover{
+    margin-left: 0%;
+    font-weight: 550;
+    width: 16%;
+    height: 3%;
+    padding-top: 3px;
+    color: #1d1de6;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    opacity: 1; 
+}
