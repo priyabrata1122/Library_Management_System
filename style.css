@@ -44,7 +44,7 @@ body {
 }
 
 #library::before{
-    content: '\2192';
+    content: '\➜';
     position: absolute;
     margin-left: -10%;
     opacity: 0;
@@ -80,7 +80,7 @@ body {
 }
 
 #recomendation::before{
-    content: '\2192';
+    content: '\➜';
     position: absolute;
     margin-left: -10%;
     opacity: 0;
@@ -115,7 +115,7 @@ body {
 }
 
 #bookmarks::before{
-    content: '\2192';
+    content: '\➜';
     position: absolute;
     margin-left: -10%;
     opacity: 0;
@@ -150,7 +150,7 @@ body {
 }
 
 #issue::before{
-    content: '\2192';
+    content: '\➜';
     position: absolute;
     margin-left: -10%;
     opacity: 0;
@@ -185,7 +185,7 @@ body {
 }
 
 #renewal::before{
-    content: '\2192';
+    content: '\➜';
     position: absolute;
     margin-left: -10%;
     opacity: 0;
@@ -220,7 +220,7 @@ body {
 }
 
 #fine::before{
-    content: '\2192';
+    content: '\➜';
     position: absolute;
     margin-left: -10%;
     opacity: 0;
@@ -255,7 +255,7 @@ body {
 }
 
 #privacy::before{
-    content: '\2192';
+    content: '\➜';
     position: absolute;
     margin-left: -10%;
     opacity: 0;
@@ -290,7 +290,7 @@ body {
 }
 
 #help::before{
-    content: '\2192';
+    content: '\➜';
     position: absolute;
     margin-left: -10%;
     opacity: 0;
@@ -325,7 +325,7 @@ body {
 }
 
 #account::before{
-    content: '\2192';
+    content: '\➜';
     position: absolute;
     margin-left: -10%;
     opacity: 0;
