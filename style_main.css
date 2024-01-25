@@ -1,0 +1,22 @@
+#main_page{
+    /* border: 2px solid black; */
+    margin-left: 16%;
+    width: auto;
+    height: 99vh;
+    position: absolute;
+}
+
+.search_bar{
+    margin-top: 5vh;
+    margin-left: 5vh;
+    
+}
+
+.search_body{
+    width: 120vh;
+    height: 5vh;
+    border: none;
+    font-size: 2.6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+}
