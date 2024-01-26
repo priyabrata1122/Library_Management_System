@@ -14,3 +14,9 @@ document.addEventListener("DOMContentLoaded",function(){
         }
     });
 });
+
+
+const signup_btn = document.getElementById("btn_signup");
+signup_btn.addEventListener('click',function(){
+    alert("You are being redirected to an external website.");
+});

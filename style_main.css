@@ -117,3 +117,24 @@ a:hover{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 2.5vh;
 }
+
+#btn_signup{
+    margin-left: 20.5vh;
+    margin-top: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    font-size: 2.5vh;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-radius: 7px;
+    background-color: #FF7F56;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.lib_img{
+    position: absolute;
+    margin-left: 100vh;
+}
