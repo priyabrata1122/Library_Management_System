@@ -73,3 +73,47 @@ li{
 a:hover{
     color: blue;
 }
+
+/* This is the area for the search collection bar. */
+.search_collection{
+    margin-top: 9vh;
+    margin-left: 5vh;
+}
+
+.search_body1{
+    width: 80vh;
+    height: 5vh;
+    border: none;
+    font-size: 2.6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+
+#category_nav{
+    margin-left: 92vh;
+    margin-top: 5vh;
+    text-decoration: none;
+}
+
+.a_nav{
+    text-decoration: none;
+    margin-left: 1vb;
+}
+
+/* Section for the initial main content in H1 and p */
+
+.main_head{
+    margin-left: 20vh;
+    margin-top: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5.5vh;
+    color: #1d1de6;
+
+}
+
+.main_para{
+    margin-left: 20.5vh;
+    margin-top: 3vh;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2.5vh;
+}
