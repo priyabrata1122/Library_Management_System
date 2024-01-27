@@ -4,18 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sign_login.css">
-    <title>SignUp</title>
+    <title>login</title>
 </head>
 <body>
     <div id="signup_container">
-        <h1 class="signup_name">
-            Sign Up
-        </h1>
-        <form id="signupForm">
-            <div class="form-group">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
+        <h2>Login</h2>
+        <form id="loginForm">
             <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
@@ -25,10 +19,10 @@
                 <input type="password" id="password" name="password" required>
             </div>
             <div class="form-group">
-                <a href="index.html"><button type="submit">Sign Up</button></a>
+                <button type="submit" id="login_button"><a href="index.html">Login</a></button>
             </div>
         </form>
-        <p>Already have an account? <a href="login.html">Login</a></p>
+        <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
     </div>
 
     <script src="script.js"></script>
