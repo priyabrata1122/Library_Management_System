@@ -8,7 +8,7 @@ body{
     align-items: center;
 }
 
-#container{
+.container{
     height: 70vh;
     width: 45vh;
     background-color: #f3f3f3;
@@ -18,7 +18,7 @@ body{
     box-shadow: 0 1vh 2vh black;
 }
 
-#headsignup{
+.headsignup{
     font-size: 5.5vh;
     align-items: center;
     display: flex;
@@ -27,7 +27,7 @@ body{
     color: #fe7142;
 }
 
-#form-group{
+.form-group{
     margin-bottom: 3vh;
 }
 
@@ -44,15 +44,27 @@ input{
     border-radius: 10px;
 }
 
-#signupbtn{
+.signupbtn{
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     background-color: #fe7142;
     font-size: 3vh;
     cursor: pointer;
+    display: flex;
+    margin-left: 34%;
 }
 
-#signupbtn:hover{
+.signupbtn:hover{
     background-color: #fe9c7c;
+}
+
+p{
+    font-size: 2.5vh;
+    margin-top: 6vh;
+}
+
+a{
+    text-decoration: none;
+    color: #fe7142;
 }
