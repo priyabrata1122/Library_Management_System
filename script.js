@@ -22,7 +22,17 @@ signup_btn.addEventListener('click',function(){
 });
 
 function search(){
-    var input,filter, txtvalue,i,items;
-    input = document.getElementsByClassName("search_body");
-    
+    var input,filter, txtValue,i,items;
+    input = document.getElementsByClassName("search_bar");
+    filter = input.value. toUpperCase();
+    items  =document.querySelectorAll("#library_books");
+
+    items.forEach(function(item) {
+        txtValue = item.textContent || item.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          item.style.display = "";
+        } else {
+          item.style.display = "none";
+        }
+      });
 }
