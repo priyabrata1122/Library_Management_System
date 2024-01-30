@@ -89,6 +89,16 @@ a:hover{
     color: #666666;
 }
 
+#search_btn{
+    width: 10vh;
+    height: 5vh;
+    background-color: #FF7F56;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
 #category_nav{
     margin-left: 92vh;
     margin-top: 5vh;
@@ -143,3 +153,65 @@ a:hover{
     position: absolute;
     margin-left: 100vh;
 }
+
+/* This is the section for Library Books */
+/* #library_books{
+    position: relative;
+    border: 1px solid black;
+    width: 98%;
+    height: auto;
+    margin-top: 32vh;
+    margin-left: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.books{
+    position: relative;
+    width: 20%;
+    border: 1px solid black;
+    height: 40vh;
+    margin-left: 6.5vh;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    cursor: pointer;
+    text-align: center;
+} */
+
+#library_books{
+    position: absolute;
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 25vh;
+    margin-left: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.books{
+    position: relative;
+    width: 20%;
+    height: 40vh;
+    border: 1px solid black;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.book_h{
+    /* margin-top: 36vh; */
+    font-size: 22px;
+}
+/* .books{
+    position: relative;
+    width: 20%;
+    height: 40vh;
+    border: 1px solid black;
+    margin: 3.8vh;
+    display: inline-block;
+    cursor: pointer;
+} */
